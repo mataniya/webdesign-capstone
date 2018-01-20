@@ -574,9 +574,16 @@ footer p {
   width:120%;
 }
 
-#span_footer {
+#span_footer, #brand {
   font-family:Satisfy, cursive;
   color:rgb(139,57,105);
+}
+
+#brand {
+  /*font-family:Satisfy, cursive;*/
+  /*color:rgb(139,57,105);*/
+  /*font-size:28px;*/
+  text-shadow:2px 2px 2px;
 }
 
 #am_img {
