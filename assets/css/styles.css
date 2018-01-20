@@ -2,8 +2,7 @@ body {
   display:flex;
   min-height:100vh;
   flex-direction:column;
-  /*background:url("../../assets/img/background.jpg") #2a7187  repeat top left;*/
-  background:#2a7187;
+  background:url("../../assets/img/background.jpg") #2a7187 repeat top left;
 }
 
 #container {
@@ -331,7 +330,7 @@ p {
 
 @media (min-width: 1200px) {
   #sect_img_bunnies, #sect_img_cactus, #sect_img_bracelet {
-    /*width:14%;*/
+    width:14%;
     margin-top:0.75%;
   }
 }
