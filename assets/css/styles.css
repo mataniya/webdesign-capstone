@@ -555,6 +555,15 @@ div.rotate_right1 {
   }
 }
 
+#am_img {
+  margin-top:5%;
+}
+
+#cr_img, #br_img {
+  margin-bottom:2%;
+  margin-top:5%;
+}
+
 footer {
   background-color:rgba(255, 255, 255, 0.85);
   margin:1% auto 0;
@@ -585,12 +594,8 @@ footer p {
   font-size:19px;
 }
 
-#am_img {
-  margin-top:5%;
-}
-
-#cr_img, #br_img {
-  margin-bottom:2%;
-  margin-top:5%;
+.carousel-caption p {
+  color:#ffffff;
+  font:small-caps bold 16px 'Montserrat Alternates', Arial, sans-serif;
 }
 
