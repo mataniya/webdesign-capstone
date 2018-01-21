@@ -220,6 +220,7 @@ header {
 p {
   font-size:16px;
   padding:0 3%;
+  padding-top:1%;
 }
 
 .row.welcome {
@@ -588,7 +589,7 @@ footer p {
   margin-top:5%;
 }
 
-#cr_img {
+#cr_img, #br_img {
   margin-bottom:2%;
   margin-top:5%;
 }
