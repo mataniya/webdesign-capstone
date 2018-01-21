@@ -2,8 +2,7 @@ body {
   display:flex;
   min-height:100vh;
   flex-direction:column;
-  /*background:url("../../assets/img/background.jpg") #2a7187  repeat top left;*/
-  background:#2a7187;
+  background:url("../../assets/img/background.jpg") #2a7187 repeat top left;
 }
 
 #container {
@@ -575,9 +574,14 @@ footer p {
   width:120%;
 }
 
-#span_footer {
+#span_footer, #brand {
   font-family:Satisfy, cursive;
   color:rgb(139,57,105);
+}
+
+#brand {
+  text-shadow:2px 2px 2px;
+  font-size:16px;
 }
 
 #am_img {
