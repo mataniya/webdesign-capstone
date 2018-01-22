@@ -336,14 +336,24 @@ p {
   }
 }
 
-@media (max-width: 767px) {
-  #h_beads, #h_bracelets, #h_cactuses, #h_amigurumi {
-    text-align:center;
+@media (max-width: 1199px) {
+  #sect_img_cactus, #sect_img_bracelet {
+    width:15%;
+    margin-top:0.75%;
   }
 }
 
-#h_beads, #h_bracelets, #h_cactuses, #h_amigurumi {
-  /*text-align:center;*/
+@media (max-width: 1199px) {
+  #sect_img_bunnies {
+    width:15%;
+    margin-top:3%;
+  }
+}
+
+@media (max-width: 991px) {
+  #h_othercraft, #h_bracelets, #h_cactuses, #h_amigurumi {
+    text-align:center;
+  }
 }
 
 .carousel-control.left {
@@ -352,6 +362,14 @@ p {
 
 .carousel-control.right {
   width:15%;
+}
+
+@media (max-width: 1199px) {
+  .carousel-inner.amigurumi, .carousel-inner.cactuses {
+    margin-left:auto;
+    margin-right:auto;
+    width:45%;
+  }
 }
 
 @media (max-width: 991px) {
@@ -375,6 +393,13 @@ p {
   margin-left:auto;
   margin-right:auto;
   width:70%;
+}
+
+.carousel-caption p {
+  color:#ffffff;
+  font:small-caps bold 16px 'Montserrat Alternates', Arial, sans-serif;
+  width:117%;
+  text-shadow:1px 1px 3px #000000, 0 0 5px #03213d;
 }
 
 div.rotate_left_ch_d {
@@ -467,8 +492,7 @@ div.rotate_right1 {
 
 .divider {
   display:block;
-  margin-left:auto;
-  margin-right:auto;
+  width:100%;
   margin-top:2em;
   margin-bottom:0.5em;
   border-style:groove;
@@ -478,8 +502,7 @@ div.rotate_right1 {
 
 .divider_gallery {
   display:block;
-  margin-left:auto;
-  margin-right:auto;
+  width:100%;
   margin-top:2em;
   margin-bottom:0.5em;
   border-style:double;
@@ -490,6 +513,7 @@ div.rotate_right1 {
 .top {
   float:right;
   font-size:15px;
+  /*margin-bottom:2%;*/
 }
 
 .top_gallery {
@@ -573,6 +597,21 @@ footer {
   padding:10px;
   padding-left:24%;
   padding-right:24%;
+  /*width:80%;*/
+}
+
+@media (max-width: 1199px) {
+  footer {
+    background-color:rgba(255, 255, 255, 0.85);
+    margin:1% auto 0;
+    text-align:center;
+    border:3px dotted #005881;
+    border-radius:15px;
+    padding:10px;
+    padding-left:24%;
+    padding-right:24%;
+    width:80%;
+  }
 }
 
 footer p {
@@ -580,22 +619,38 @@ footer p {
   line-height:150%;
   font-family:'Montserrat Alternates', sans-serif, Arial;
   font-weight:bold;
-  font-size:16px;
+  font-size:14px;
   width:120%;
 }
 
-#span_footer, #brand {
+#span_footer {
   font-family:Satisfy, cursive;
   color:rgb(139,57,105);
 }
 
 #brand {
-  text-shadow:2px 2px 2px;
-  font-size:19px;
+  width:300px;
 }
 
-.carousel-caption p {
-  color:#ffffff;
-  font:small-caps bold 16px 'Montserrat Alternates', Arial, sans-serif;
+#brand_img {
+  width:25%;
+  float:left;
+  margin-top:-3%;
+  margin-left:-1%;
+}
+
+@media (max-width: 991px) {
+  #brand_img {
+    width:100%;
+    float:left;
+    margin-top:-3%;
+    margin-left:-1%;
+  }
+}
+
+@media (max-width: 991px) {
+  #brand {
+    width:90px;
+  }
 }
 
