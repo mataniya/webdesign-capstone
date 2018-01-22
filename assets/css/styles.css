@@ -621,6 +621,7 @@ footer p {
   font-weight:bold;
   font-size:14px;
   width:120%;
+  /*text-align:center;*/
 }
 
 #span_footer {
